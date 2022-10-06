@@ -63,10 +63,10 @@ function Testing() {
   </tr>
 
   <tr class="imgsection">
-    <td><img src={sc2}/></td>
-    <td><img src={sc3}/></td>
-    <td><img src={sc4}/></td>
-    <td><img src={sc5}/></td>
+    <td><img src={sc2} alt="img1"/></td>
+    <td><img src={sc3} alt="img1"/></td>
+    <td><img src={sc4} alt="img1"/></td>
+    <td><img src={sc5} alt="img1"/></td>
   </tr>
 
   <tr>
@@ -102,7 +102,7 @@ function Testing() {
           
         </div>
         <div class="degree-image3">
-          <img src={sc6} />
+          <img src={sc6} alt="img1"/>
           <div className="head3-arrow">
           High-{users.query.results.channel.item.forecast[1].high} | Low-{users.query.results.channel.item.forecast[1].low}
           </div>

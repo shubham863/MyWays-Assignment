@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+}
+
+.mainpage{
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgb(10, 10, 101), rgb(130, 115, 165));
+
+}
+.head1{
+ /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, rgb(28, 15, 85) , rgb(50, 50, 117));
+}
+.head1{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  background-color: rgb(18, 10, 63);
+}
+.head1-h1 {
+
+   height: 35px;
+  color:white;
+  text-align: left;
+  background-color: rgb(22, 18, 30);
+}
+.head1-h1 >h2{
+  padding-left: 18px;
+}
+
+.degree-center{
+  margin-left: 15px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.degree-center > h1{
+  color: white;
+  font-size: 100px;
+  margin: 0%;
+}
+
+.degree-center > h2{
+  color: white;
+  margin: 0%;
+}
+
+.degree-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.degree-image{
+  margin-right: 20px;
+display: flex;
+align-items: center;
+}
+
+.degree-image > img{
+  height: 100px;
+  width: 100px;
+}
+
+.head2{
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: white;
+}
+.uni{
+  font-size: 35px;
+  color: blue;
+}
+.head2 > h2 {
+  margin-left: 15px;
+  background-color: white;
+  text-align: left;
+}
+table{
+  width: 96%;
+  border-style: dotted;
+  background-color: white;
+}
+table, th, td {
+  border:0px solid black;
+}
+
+.head2table.imgsection{
+  height: 20px;
+  width: 20px;
+}
+.vl {
+  border-left: 2px solid rgb(112, 126, 112);
+  height: 200px;
+}
+.head3{
+  margin-bottom: 50px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: white;
+}
+.head3-h3 > h2{
+  padding-left: 15px;
+  text-align: left;
+  margin: 0%;
+}
+.degree-center3 >h1{
+padding-left: 8px;
+  font-size: 65px;
+  margin: 0%;
+}
+.degree-center3 >h2{
+  margin: 0%;
+  padding-left: 18px;
+}
+hr{
+  color: rgb(248, 246, 246);
+}
+.head3table{
+  background-color: rgb(251, 249, 246);
+}
+.degree-image3{
+  align-items: center;
+  }
+  
+  .degree-image3 > img{
+    margin-right: 30px;
+    height: 50px;
+    width: 100px;
+  }
+.head3-arrow{
+  padding-left: 0px;
+  display: flex;
+  flex-direction: row;
+}
+.button:hover {
+  background-color: rgb(122, 88, 164);
+}
+.button {
+  border: none;
+ 
+  background-color: blue;
+  color: rgb(255, 251, 251);
+  padding: 15px 32px;
+  border-radius:10px;
+  text-align: center;
+  text-decoration: none;
+  display: -webkit-inline-flex;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor:grab;
+}
+
+.hover-tr:hover{
+  background-color: rgb(230, 230, 240);
+}
+.visibility{
+  align-items:flex-start;
+  border: none;
+  background-color: rgb(251, 249, 246);
+  border-color: rgb(251, 249, 246);;
+}
